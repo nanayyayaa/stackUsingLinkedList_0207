@@ -81,3 +81,9 @@ int main()
     stack stack;
 
     int choice = 0;
+    int value;
+
+    while (choice !=5)
+    {
+        cout << "1.push\n";
+        cout << "2.pop\n";
