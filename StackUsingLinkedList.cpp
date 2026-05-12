@@ -10,3 +10,9 @@ public:
     Node *next;
 
     Node()
+    {
+        next = NULL;
+    }
+};
+
+//Stack class
