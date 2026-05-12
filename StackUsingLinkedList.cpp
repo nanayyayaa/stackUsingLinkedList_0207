@@ -111,3 +111,10 @@ int main()
             break;
         case 3:
             if (!stack.isEmpty())
+            {
+                stack.peek(); //get the value of the top element
+            }
+            else
+            {
+                cout << "Stack is empty. No top value." << endl;
+            }
